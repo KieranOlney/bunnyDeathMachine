@@ -17,5 +17,4 @@ def write_file(filename,data):
     file = open(filename,"w")
     json.dump(data,file)
     file.close()
-    return 
 
